@@ -3,8 +3,6 @@ FROM node:20
 
 VOLUME [ "/root/.ssh" ]
 
-VOLUME [ "/root/.ssh" ]
-
 #PASTA PARA TRABALHO
 WORKDIR /data
 
