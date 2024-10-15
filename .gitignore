@@ -19,16 +19,12 @@ build/
 # Outros arquivos que você deseja ignorar
 .DS_Store
 .vscode/
-=======
-<<<<<<< HEAD
-=======
 
 #files pessoais
-
 gussxx
 gussxx.pub
+help
 
->>>>>>> aebc3e57ebadb828c4921c80c19422da10372255
 # Logs
 logs
 *.log
