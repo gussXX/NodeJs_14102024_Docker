@@ -7,7 +7,6 @@ const os            = require('os');
 const interfaces = os.networkInterfaces();
 
 const PORT      = process.env.PORT || 3000;
-const ADDRESS   = process.env.ADDRESS || interfaces['lo'][0]['address']
 const corsOptions = {
     origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
@@ -36,5 +35,5 @@ app.post('/api/saudacao', (req, res) => {
 
 // Iniciar o servidor
 app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://${ADDRESS}:${PORT}`);
+    console.log(`Servidor rodando em http://:${PORT}`);
 });
