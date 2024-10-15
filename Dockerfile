@@ -16,6 +16,9 @@ COPY . .
 RUN git config --global user.name "gussxx" && \
     git config --global user.email "gus7avo182@gmail.com"
 
+# Diretório para armazenar as chaves SSH
+RUN mkdir -p /root/.ssh
+
 # Copia a chave pública e privada para o contêiner
 COPY id_rsa /root/.ssh/id_rsa
 COPY id_rsa.pub /root/.ssh/id_rsa.pub
