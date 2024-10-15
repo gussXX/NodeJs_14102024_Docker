@@ -7,11 +7,7 @@ const os            = require('os');
 const interfaces = os.networkInterfaces();
 
 const PORT      = process.env.PORT || 3000;
-<<<<<<< HEAD
 const ADDRESS   = process.env.ADDRESS || interfaces['lo'][0]['address']
-=======
-const ADDRESS   = process.env.ADDRESS || interfaces['Ethernet'][1]['address']
->>>>>>> aebc3e57ebadb828c4921c80c19422da10372255
 const corsOptions = {
     origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
