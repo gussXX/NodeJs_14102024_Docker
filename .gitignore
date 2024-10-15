@@ -20,6 +20,15 @@ build/
 .DS_Store
 .vscode/
 =======
+<<<<<<< HEAD
+=======
+
+#files pessoais
+
+gussxx
+gussxx.pub
+
+>>>>>>> aebc3e57ebadb828c4921c80c19422da10372255
 # Logs
 logs
 *.log
