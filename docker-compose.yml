@@ -1,0 +1,5 @@
+services:
+  ssh_directory:
+    image: gussxx/0241410_node:1.1
+    volumes:
+      - /mnt/c/Users/bress/.ssh:/root/.ssh

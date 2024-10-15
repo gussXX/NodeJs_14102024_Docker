@@ -35,5 +35,6 @@ app.post('/api/saudacao', (req, res) => {
 
 // Iniciar o servidor
 app.listen(PORT, () => {
+    console.log("12:35")
     console.log(`Servidor rodando em http://:${PORT}`);
 });
